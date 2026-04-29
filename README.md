@@ -35,6 +35,23 @@ The **Intelligent CPU Scheduler Simulator** is an educational tool designed to d
 
 ---
 
+## 📸 Screenshots
+
+### 🔵 FCFS — First Come First Serve
+![FCFS Simulation](screenshot_fcfs.png)
+
+---
+
+### 🟢 SJF — Shortest Job First
+![SJF Simulation](screenshot_sjf.png)
+
+---
+
+### 🟣 Round Robin (Q=2)
+![Round Robin Simulation](screenshot_rr.png)
+
+---
+
 ## 🛠️ Tech Stack
 
 | Technology | Purpose |
@@ -52,7 +69,7 @@ The **Intelligent CPU Scheduler Simulator** is an educational tool designed to d
    - Burst Time
    - Priority *(required for Priority Scheduling)*
 
-2. **Select** a scheduling algorithm from the dropdown
+2. **Select** a scheduling algorithm from the panel
 
 3. **Click** `Execute Simulation`
 
@@ -80,85 +97,3 @@ Each process is given a fixed CPU time slice (quantum). Processes cycle through 
 ---
 
 ## 📂 Project Structure
-
-```
-cpu-scheduler-simulator/
-│
-└── index.html        # Main application (HTML + CSS + JS combined)
-```
-
----
-
-## ▶️ Getting Started
-
-### Option 1 — Run Locally
-```bash
-# Clone the repository
-git clone https://github.com/your-username/cpu-scheduler-simulator.git
-
-# Navigate into the folder
-cd cpu-scheduler-simulator
-
-# Open in browser
-open index.html
-```
-
-### Option 2 — Direct Download
-1. Download or clone this repository
-2. Open `index.html` in any modern browser
-3. Start simulating!
-
-> ✅ No installation, no dependencies, no server required.
-
----
-
-## 📸 Screenshots
-
-> *Add screenshots of your simulator here*
-
-| Input Panel | Gantt Chart | Metrics |
-|-------------|-------------|---------|
-| *(screenshot)* | *(screenshot)* | *(screenshot)* |
-
----
-
-## 🔮 Future Improvements
-
-- [ ] Preemptive versions of SJF and Priority Scheduling
-- [ ] Save and load process data (JSON export/import)
-- [ ] Mobile responsiveness improvements
-- [ ] Step-by-step animation mode
-- [ ] Backend integration for persistent data storage
-- [ ] Comparison view across multiple algorithms
-
----
-
-## 👨‍💻 Author
-
-**Mohd Sahil**  
-B.Tech CSE Student
-
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-username)
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
-
----
-
-## 📜 License
-
-This project is intended for **educational purposes**.  
-Feel free to use, modify, and distribute it for learning and academic use.
-
----
-
-<p align="center">Made with ❤️ by Mohd Sahil</p>
